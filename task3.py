@@ -10,7 +10,7 @@ if __name__ == "__main__":
     with open("article_2.txt", "r", encoding="utf-8") as f:
         text2 = f.read()
 
-    patterns = {"existing": "структури даних", "non_existing": "gfdgdfgdfgklj"}
+    patterns = {"existing": "алгоритм", "non_existing": "gfdgdfgdfgklj"}
 
     for pattern_type, pattern in patterns.items():
         for i, text in enumerate([text1, text2], 1):
